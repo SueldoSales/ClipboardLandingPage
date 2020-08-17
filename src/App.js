@@ -1,24 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import Header from './components/Header';
+import Keep from './components/Keep';
+import Access from './components/Access';
+import Supercharge from './components/Supercharge';
+import SocialProof from './components/SocialProof';
+import CallToAction from './components/CallToAction';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Keep />
+      <Access />
+      <Supercharge />
+      <SocialProof />
+      <CallToAction />
+      <Footer />
     </div>
   );
 }
